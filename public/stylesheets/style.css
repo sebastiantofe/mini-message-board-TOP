@@ -1,8 +1,61 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+	color: #00b7ff;
+}
+
+.messages-container {
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.message-box {
+	border: 1px solid black;
+	margin: 5px;
+	padding-left: 10px;
+}
+
+.user {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+button {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+	vertical-align: middle;
+	text-decoration: none;
+	background: transparent;
+	padding: 0;
+	font-size: inherit;
+	font-family: inherit;
+}
+button.message-button {
+	width: auto;
+	padding: 0 10px;
+	height: 40px;
+	border-radius: 10px;
+	color: #eb3d2b;
+	border: 1px solid;
+	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out,
+		border-color 0.35s ease-in-out, box-shadow 0.35s ease-in-out;
+	padding: 0.5rem 10px;
+	font-weight: 700;
+	line-height: 1.6;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Mukta", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.message-button:hover {
+	background-color: #eb3d2b;
+  color: white;
 }
